@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Registration - Yasaswini Railway</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <h1>🚆 Yasaswini Railway</h1>
+
+            <p>Reservation Information System</p>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="navbar">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="trains.html">
+                Trains
+            </a>
+
+            <a href="registration.html"
+               class="active">
+                Registration
+            </a>
+
+            <a href="booking.html">
+                Booking
+            </a>
+
+            <a href="pnr-status.html">
+                PNR Status
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+
+            <!-- ONE IMAGE LINE -->
+
+            <img src="images/railway-registration.jpg"
+                 alt="Railway Registration"
+                 class="registration-image">
+
+
+            <h1>
+                Passenger Registration
+            </h1>
+
+            <h2>
+                Yasaswini Railway
+            </h2>
+
+            <p>
+                Register your details to use the
+                railway reservation information system.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= REGISTRATION SECTION ================= -->
+
+    <section class="search-section">
+
+        <div class="about-content">
+
+            <h2>
+                Create Your Account
+            </h2>
+
+            <p>
+                Please enter your details carefully
+                to complete the registration.
+            </p>
+
+        </div>
+
+
+        <!-- ================= REGISTRATION FORM ================= -->
+
+        <form class="registration-form"
+              id="registrationForm">
+
+
+            <!-- PERSONAL DETAILS -->
+
+            <h2>
+                Personal Details
+            </h2>
+
+
+            <div class="form-row">
+
+
+                <div class="form-group">
+
+                    <label for="fullName">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Enter your full name"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="dateOfBirth">
+                        Date of Birth
+                    </label>
+
+                    <input
+                        type="date"
+                        id="dateOfBirth"
+                        name="dateOfBirth"
+                        required>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="form-row">
+
+
+                <div class="form-group">
+
+                    <label for="gender">
+                        Gender
+                    </label>
+
+                    <select id="gender"
+                            name="gender"
+                            required>
+
+                        <option value="">
+                            Select Gender
+                        </option>
+
+                        <option value="Male">
+                            Male
+                        </option>
+
+                        <option value="Female">
+                            Female
+                        </option>
+
+                        <option value="Other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="mobile">
+                        Mobile Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="mobile"
+                        name="mobile"
+                        placeholder="Enter mobile number"
+                        pattern="[0-9]{10}"
+                        maxlength="10"
+                        required>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CONTACT DETAILS -->
+
+            <h2>
+                Contact Details
+            </h2>
+
+
+            <div class="form-row">
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter email address"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="city">
+                        City
+                    </label>
+
+                    <input
+                        type="text"
+                        id="city"
+                        name="city"
+                        placeholder="Enter your city"
+                        required>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="address">
+                    Address
+                </label>
+
+                <textarea
+                    id="address"
+                    name="address"
+                    rows="4"
+                    placeholder="Enter your address"
+                    required></textarea>
+
+            </div>
+
+
+
+            <!-- ACCOUNT DETAILS -->
+
+            <h2>
+                Account Details
+            </h2>
+
+
+            <div class="form-row">
+
+
+                <div class="form-group">
+
+                    <label for="username">
+                        Username
+                    </label>
+
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Create a username"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Create a password"
+                        required>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="confirmPassword">
+                    Confirm Password
+                </label>
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    placeholder="Confirm your password"
+                    required>
+
+            </div>
+
+
+
+            <!-- TERMS -->
+
+            <div class="booking-terms">
+
+                <label>
+
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        required>
+
+                    I agree that the information
+                    provided by me is correct.
+
+                </label>
+
+            </div>
+
+
+
+            <!-- BUTTONS -->
+
+            <div class="hero-buttons">
+
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Register
+
+                </button>
+
+
+                <button
+                    type="reset"
+                    class="btn secondary-btn">
+
+                    Clear
+
+                </button>
+
+            </div>
+
+
+            <!-- MESSAGE -->
+
+            <p id="registrationMessage"></p>
+
+
+        </form>
+
+    </section>
+
+
+
+    <!-- ================= BENEFITS ================= -->
+
+    <section class="features">
+
+        <h2>
+            Registration Benefits
+        </h2>
+
+        <p class="section-description">
+
+            Registered users can easily access
+            railway reservation services.
+
+        </p>
+
+
+        <div class="feature-container">
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🚆
+                </div>
+
+                <h3>
+                    Train Information
+                </h3>
+
+                <p>
+                    Easily view train routes,
+                    timings and available trains.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🎫
+                </div>
+
+                <h3>
+                    Easy Booking
+                </h3>
+
+                <p>
+                    Access the railway ticket
+                    booking section easily.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🔎
+                </div>
+
+                <h3>
+                    PNR Status
+                </h3>
+
+                <p>
+                    Check railway reservation
+                    information using PNR.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📋
+                </div>
+
+                <h3>
+                    User Information
+                </h3>
+
+                <p>
+                    Keep your basic registration
+                    details organized.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>
+                Yasaswini Railway
+            </h2>
+
+            <p>
+                Railway Reservation Information System
+            </p>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="trains.html">
+                    Trains
+                </a>
+
+                <a href="registration.html">
+                    Registration
+                </a>
+
+                <a href="booking.html">
+                    Booking
+                </a>
+
+                <a href="pnr-status.html">
+                    PNR Status
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <p class="copyright">
+
+                © 2026 Yasaswini Railway Reservation
+                Information System
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

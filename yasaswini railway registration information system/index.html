@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yasaswini Railway Reservation Information System</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <h1>🚆 Yasaswini Railway</h1>
+
+            <p>Reservation Information System</p>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="navbar">
+
+            <a href="index.html" class="active">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="trains.html">
+                Trains
+            </a>
+
+            <a href="registration.html">
+                Registration
+            </a>
+
+            <a href="booking.html">
+                Booking
+            </a>
+
+            <a href="pnr-status.html">
+                PNR Status
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+
+            <!-- ONE IMAGE LINE -->
+
+            <img src="images/railway-home.jpg"
+                 alt="Yasaswini Railway"
+                 class="home-image">
+
+
+            <h1>
+                Welcome to Yasaswini Railway
+            </h1>
+
+            <h2>
+                Reservation Information System
+            </h2>
+
+            <p>
+                A simple and user-friendly railway reservation
+                information system for passengers.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="trains.html" class="btn">
+                    View Trains
+                </a>
+
+                <a href="booking.html"
+                   class="btn secondary-btn">
+                    Book Ticket
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SEARCH SECTION ================= -->
+
+    <section class="search-section">
+
+        <h2>
+            Search Trains
+        </h2>
+
+        <p>
+            Find trains according to your journey.
+        </p>
+
+
+        <form class="search-form"
+              id="searchForm">
+
+
+            <div class="form-group">
+
+                <label for="from">
+                    From
+                </label>
+
+                <input
+                    type="text"
+                    id="from"
+                    placeholder="Departure station"
+                    required>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="to">
+                    To
+                </label>
+
+                <input
+                    type="text"
+                    id="to"
+                    placeholder="Destination station"
+                    required>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="date">
+                    Journey Date
+                </label>
+
+                <input
+                    type="date"
+                    id="date"
+                    required>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <button
+                    type="submit"
+                    class="search-btn">
+
+                    Search Trains
+
+                </button>
+
+            </div>
+
+
+        </form>
+
+
+        <p id="searchMessage"></p>
+
+    </section>
+
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+        <h2>
+            Railway Reservation Services
+        </h2>
+
+        <p class="section-description">
+
+            Explore the main features of the
+            Yasaswini Railway Reservation Information System.
+
+        </p>
+
+
+        <div class="feature-container">
+
+
+            <!-- TRAINS -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🚆
+                </div>
+
+                <h3>
+                    Train Information
+                </h3>
+
+                <p>
+                    View available trains, routes,
+                    timings and train details.
+                </p>
+
+                <a href="trains.html">
+                    View Trains
+                </a>
+
+            </div>
+
+
+
+            <!-- REGISTRATION -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📝
+                </div>
+
+                <h3>
+                    Registration
+                </h3>
+
+                <p>
+                    Register passenger information
+                    through a simple registration form.
+                </p>
+
+                <a href="registration.html">
+                    Register Now
+                </a>
+
+            </div>
+
+
+
+            <!-- BOOKING -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🎫
+                </div>
+
+                <h3>
+                    Ticket Booking
+                </h3>
+
+                <p>
+                    Book your railway ticket by
+                    entering journey and passenger details.
+                </p>
+
+                <a href="booking.html">
+                    Book Ticket
+                </a>
+
+            </div>
+
+
+
+            <!-- PNR -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🔎
+                </div>
+
+                <h3>
+                    PNR Status
+                </h3>
+
+                <p>
+                    Check your railway reservation
+                    information using your PNR number.
+                </p>
+
+                <a href="pnr-status.html">
+                    Check PNR
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT PREVIEW ================= -->
+
+    <section class="about-preview">
+
+        <div class="about-content">
+
+
+            <h2>
+                About Yasaswini Railway
+            </h2>
+
+
+            <p>
+                Yasaswini Railway Reservation Information System
+                is a B.Tech student project designed to provide
+                railway reservation information through a simple
+                and user-friendly website.
+            </p>
+
+
+            <p>
+                Users can search for trains, register passenger
+                details, book tickets and check PNR status.
+            </p>
+
+
+            <a href="about.html"
+               class="btn">
+
+                Learn More
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= QUICK LINKS ================= -->
+
+    <section class="quick-links">
+
+        <h2>
+            Quick Links
+        </h2>
+
+
+        <div class="quick-container">
+
+
+            <a href="index.html">
+
+                <span class="quick-icon">
+                    🏠
+                </span>
+
+                Home
+
+            </a>
+
+
+
+            <a href="about.html">
+
+                <span class="quick-icon">
+                    ℹ️
+                </span>
+
+                About
+
+            </a>
+
+
+
+            <a href="trains.html">
+
+                <span class="quick-icon">
+                    🚆
+                </span>
+
+                Trains
+
+            </a>
+
+
+
+            <a href="registration.html">
+
+                <span class="quick-icon">
+                    📝
+                </span>
+
+                Registration
+
+            </a>
+
+
+
+            <a href="booking.html">
+
+                <span class="quick-icon">
+                    🎫
+                </span>
+
+                Booking
+
+            </a>
+
+
+
+            <a href="pnr-status.html">
+
+                <span class="quick-icon">
+                    🔎
+                </span>
+
+                PNR Status
+
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>
+                Yasaswini Railway
+            </h2>
+
+            <p>
+                Railway Reservation Information System
+            </p>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="trains.html">
+                    Trains
+                </a>
+
+                <a href="registration.html">
+                    Registration
+                </a>
+
+                <a href="booking.html">
+                    Booking
+                </a>
+
+                <a href="pnr-status.html">
+                    PNR Status
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <p class="copyright">
+
+                © 2026 Yasaswini Railway Reservation
+                Information System
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

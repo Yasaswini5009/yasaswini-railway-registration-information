@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery - Yasaswini Railway</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .gallery-page {
+            padding: 60px 5%;
+            background: #f5f7fa;
+            text-align: center;
+        }
+
+        .gallery-page h1 {
+            color: #0b3d62;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .gallery-description {
+            color: #666;
+            margin-bottom: 35px;
+        }
+
+        .gallery-container {
+            max-width: 1200px;
+            margin: auto;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .gallery-card {
+            background: white;
+            padding: 12px;
+            border-radius: 10px;
+
+            box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+
+            transition: 0.3s;
+        }
+
+        .gallery-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .gallery-card h3 {
+            color: #0b3d62;
+            margin-top: 12px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .gallery-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            .gallery-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="logo">
+            <h1>🚆 Yasaswini Railway</h1>
+            <p>Reservation Information System</p>
+        </div>
+
+        <nav class="navbar">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trains.html">Trains</a>
+            <a href="registration.html">Registration</a>
+            <a href="booking.html">Booking</a>
+            <a href="pnr-status.html">PNR Status</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- GALLERY -->
+    <section class="gallery-page">
+
+        <h1>Yasaswini Railway Gallery</h1>
+
+        <p class="gallery-description">
+            Explore railway stations, trains and reservation related images.
+        </p>
+
+
+        <div class="gallery-container">
+
+            <!-- PHOTO 1 -->
+            <div class="gallery-card">
+
+                <!-- IMAGE LINE -->
+                <img src="images/train1.jpg"
+                     alt="Railway Train">
+
+                <h3>Railway Train</h3>
+
+            </div>
+
+
+            <!-- PHOTO 2 -->
+            <div class="gallery-card">
+
+                <!-- IMAGE LINE -->
+                <img src="images/train2.jpg"
+                     alt="Railway Station">
+
+                <h3>Railway Station</h3>
+
+            </div>
+
+
+            <!-- PHOTO 3 -->
+            <div class="gallery-card">
+
+                <!-- IMAGE LINE -->
+                <img src="images/train3.jpg"
+                     alt="Passenger Train">
+
+                <h3>Passenger Train</h3>
+
+            </div>
+
+
+            <!-- PHOTO 4 -->
+            <div class="gallery-card">
+
+                <!-- IMAGE LINE -->
+                <img src="images/train4.jpg"
+                     alt="Railway Journey">
+
+                <h3>Railway Journey</h3>
+
+            </div>
+
+
+            <!-- PHOTO 5 -->
+            <div class="gallery-card">
+
+                <!-- IMAGE LINE -->
+                <img src="images/train5.jpg"
+                     alt="Railway Platform">
+
+                <h3>Railway Platform</h3>
+
+            </div>
+
+
+            <!-- PHOTO 6 -->
+            <div class="gallery-card">
+
+                <!-- IMAGE LINE -->
+                <img src="images/train6.jpg"
+                     alt="Railway Track">
+
+                <h3>Railway Track</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>Yasaswini Railway</h2>
+
+            <p>
+                Railway Reservation Information System
+            </p>
+
+            <div class="footer-links">
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="trains.html">Trains</a>
+                <a href="registration.html">Registration</a>
+                <a href="booking.html">Booking</a>
+                <a href="pnr-status.html">PNR Status</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 Yasaswini Railway Reservation
+                Information System. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

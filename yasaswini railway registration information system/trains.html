@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Trains - Yasaswini Railway</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <h1>🚆 Yasaswini Railway</h1>
+
+            <p>Reservation Information System</p>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="navbar">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="trains.html"
+               class="active">
+                Trains
+            </a>
+
+            <a href="registration.html">
+                Registration
+            </a>
+
+            <a href="booking.html">
+                Booking
+            </a>
+
+            <a href="ticket.html">
+                Ticket
+            </a>
+
+            <a href="pnr-status.html">
+                PNR Status
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+
+            <!-- ONE IMAGE LINE -->
+
+            <img src="images/railway-trains.jpg"
+                 alt="Yasaswini Railway Trains"
+                 class="trains-image">
+
+
+            <h1>
+                Train Information
+            </h1>
+
+            <h2>
+                Yasaswini Railway
+            </h2>
+
+            <p>
+                Find train names, numbers, routes,
+                timings and reservation information.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="booking.html"
+                   class="btn">
+
+                    Book Ticket
+
+                </a>
+
+                <a href="pnr-status.html"
+                   class="btn secondary-btn">
+
+                    Check PNR
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SEARCH TRAINS ================= -->
+
+    <section class="search-section">
+
+        <h2>
+            Search Trains
+        </h2>
+
+        <p>
+            Enter your departure and destination
+            stations to find trains.
+        </p>
+
+
+        <form class="search-form"
+              id="trainSearchForm">
+
+
+            <div class="form-group">
+
+                <label for="fromStation">
+                    From Station
+                </label>
+
+                <input
+                    type="text"
+                    id="fromStation"
+                    name="fromStation"
+                    placeholder="Enter departure station"
+                    required>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="toStation">
+                    To Station
+                </label>
+
+                <input
+                    type="text"
+                    id="toStation"
+                    name="toStation"
+                    placeholder="Enter destination station"
+                    required>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="journeyDate">
+                    Journey Date
+                </label>
+
+                <input
+                    type="date"
+                    id="journeyDate"
+                    name="journeyDate"
+                    required>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <button
+                    type="submit"
+                    class="search-btn">
+
+                    Search Trains
+
+                </button>
+
+            </div>
+
+
+        </form>
+
+
+        <p id="trainSearchMessage"></p>
+
+    </section>
+
+
+
+    <!-- ================= TRAIN INFORMATION ================= -->
+
+    <section class="features">
+
+        <h2>
+            Available Trains
+        </h2>
+
+        <p class="section-description">
+
+            Sample train information for the
+            Yasaswini Railway Reservation System.
+
+        </p>
+
+
+        <div class="feature-container">
+
+
+            <!-- TRAIN 1 -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🚆
+                </div>
+
+                <h3>
+                    Yasaswini Express
+                </h3>
+
+                <p>
+
+                    <strong>Train No:</strong>
+                    12701
+
+                    <br>
+
+                    <strong>From:</strong>
+                    Vijayawada
+
+                    <br>
+
+                    <strong>To:</strong>
+                    Hyderabad
+
+                    <br>
+
+                    <strong>Departure:</strong>
+                    06:00 AM
+
+                    <br>
+
+                    <strong>Arrival:</strong>
+                    12:30 PM
+
+                </p>
+
+                <a href="booking.html">
+                    Book Now
+                </a>
+
+            </div>
+
+
+
+            <!-- TRAIN 2 -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🚄
+                </div>
+
+                <h3>
+                    Godavari Express
+                </h3>
+
+                <p>
+
+                    <strong>Train No:</strong>
+                    12727
+
+                    <br>
+
+                    <strong>From:</strong>
+                    Vijayawada
+
+                    <br>
+
+                    <strong>To:</strong>
+                    Hyderabad
+
+                    <br>
+
+                    <strong>Departure:</strong>
+                    08:30 AM
+
+                    <br>
+
+                    <strong>Arrival:</strong>
+                    03:00 PM
+
+                </p>
+
+                <a href="booking.html">
+                    Book Now
+                </a>
+
+            </div>
+
+
+
+            <!-- TRAIN 3 -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🚆
+                </div>
+
+                <h3>
+                    Krishna Express
+                </h3>
+
+                <p>
+
+                    <strong>Train No:</strong>
+                    17405
+
+                    <br>
+
+                    <strong>From:</strong>
+                    Vijayawada
+
+                    <br>
+
+                    <strong>To:</strong>
+                    Tirupati
+
+                    <br>
+
+                    <strong>Departure:</strong>
+                    07:15 AM
+
+                    <br>
+
+                    <strong>Arrival:</strong>
+                    02:30 PM
+
+                </p>
+
+                <a href="booking.html">
+                    Book Now
+                </a>
+
+            </div>
+
+
+
+            <!-- TRAIN 4 -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🚄
+                </div>
+
+                <h3>
+                    Charminar Express
+                </h3>
+
+                <p>
+
+                    <strong>Train No:</strong>
+                    12759
+
+                    <br>
+
+                    <strong>From:</strong>
+                    Hyderabad
+
+                    <br>
+
+                    <strong>To:</strong>
+                    Chennai
+
+                    <br>
+
+                    <strong>Departure:</strong>
+                    06:30 PM
+
+                    <br>
+
+                    <strong>Arrival:</strong>
+                    08:00 AM
+
+                </p>
+
+                <a href="booking.html">
+                    Book Now
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= TRAIN CLASSES ================= -->
+
+    <section class="quick-links">
+
+        <h2>
+            Train Classes
+        </h2>
+
+
+        <div class="quick-container">
+
+
+            <a href="booking.html">
+
+                <span class="quick-icon">
+                    💺
+                </span>
+
+                Sleeper
+
+            </a>
+
+
+
+            <a href="booking.html">
+
+                <span class="quick-icon">
+                    ❄️
+                </span>
+
+                AC 3 Tier
+
+            </a>
+
+
+
+            <a href="booking.html">
+
+                <span class="quick-icon">
+                    ❄️
+                </span>
+
+                AC 2 Tier
+
+            </a>
+
+
+
+            <a href="booking.html">
+
+                <span class="quick-icon">
+                    ⭐
+                </span>
+
+                AC First Class
+
+            </a>
+
+
+
+            <a href="booking.html">
+
+                <span class="quick-icon">
+                    🚆
+                </span>
+
+                General
+
+            </a>
+
+
+
+            <a href="pnr-status.html">
+
+                <span class="quick-icon">
+                    🔎
+                </span>
+
+                PNR Status
+
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>
+                Yasaswini Railway
+            </h2>
+
+            <p>
+                Railway Reservation Information System
+            </p>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="trains.html">
+                    Trains
+                </a>
+
+                <a href="registration.html">
+                    Registration
+                </a>
+
+                <a href="booking.html">
+                    Booking
+                </a>
+
+                <a href="ticket.html">
+                    Ticket
+                </a>
+
+                <a href="pnr-status.html">
+                    PNR Status
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <p class="copyright">
+
+                © 2026 Yasaswini Railway Reservation
+                Information System
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

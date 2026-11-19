@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PNR Status - Yasaswini Railway</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <h1>🚆 Yasaswini Railway</h1>
+
+            <p>Reservation Information System</p>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="navbar">
+
+            <a href="index.html">Home</a>
+
+            <a href="about.html">About</a>
+
+            <a href="trains.html">Trains</a>
+
+            <a href="registration.html">Registration</a>
+
+            <a href="booking.html">Booking</a>
+
+            <a href="pnr-status.html" class="active">
+                PNR Status
+            </a>
+
+            <a href="gallery.html">Gallery</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= PNR HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <!-- ONE IMAGE LINE -->
+
+            <img src="images/railway-pnr.jpg"
+                 alt="Railway PNR Status"
+                 class="pnr-image">
+
+
+            <h1>
+                Check PNR Status
+            </h1>
+
+            <h2>
+                Yasaswini Railway
+            </h2>
+
+            <p>
+                Enter your PNR number to view
+                your railway reservation information.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PNR SEARCH ================= -->
+
+    <section class="search-section">
+
+        <h2>
+            PNR Status
+        </h2>
+
+        <p>
+            Enter your 10-digit PNR number below.
+        </p>
+
+
+        <form class="pnr-form"
+              id="pnrForm">
+
+
+            <div class="form-group">
+
+                <label for="pnr">
+                    Enter PNR Number
+                </label>
+
+                <input
+                    type="text"
+                    id="pnr"
+                    name="pnr"
+                    placeholder="Enter 10-digit PNR number"
+                    maxlength="10"
+                    pattern="[0-9]{10}"
+                    required>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="search-btn">
+
+                Check PNR Status
+
+            </button>
+
+
+        </form>
+
+
+        <!-- RESULT MESSAGE -->
+
+        <div id="pnrResult">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PNR INFORMATION ================= -->
+
+    <section class="features">
+
+        <h2>
+            PNR Information
+        </h2>
+
+        <p class="section-description">
+
+            PNR stands for Passenger Name Record.
+            It contains information about a passenger's
+            railway reservation.
+
+        </p>
+
+
+        <div class="feature-container">
+
+
+            <!-- PASSENGER -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    👤
+                </div>
+
+                <h3>
+                    Passenger Details
+                </h3>
+
+                <p>
+                    View passenger-related information
+                    associated with the reservation.
+                </p>
+
+            </div>
+
+
+
+            <!-- TRAIN -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🚆
+                </div>
+
+                <h3>
+                    Train Details
+                </h3>
+
+                <p>
+                    View train number, train name,
+                    route and journey details.
+                </p>
+
+            </div>
+
+
+
+            <!-- SEAT -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    💺
+                </div>
+
+                <h3>
+                    Seat Information
+                </h3>
+
+                <p>
+                    View coach, seat and reservation
+                    status information.
+                </p>
+
+            </div>
+
+
+
+            <!-- STATUS -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📋
+                </div>
+
+                <h3>
+                    Booking Status
+                </h3>
+
+                <p>
+                    Check the current status of your
+                    railway reservation.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= QUICK LINKS ================= -->
+
+    <section class="quick-links">
+
+        <h2>
+            Quick Links
+        </h2>
+
+
+        <div class="quick-container">
+
+
+            <a href="index.html">
+
+                <span class="quick-icon">
+                    🏠
+                </span>
+
+                Home
+
+            </a>
+
+
+
+            <a href="about.html">
+
+                <span class="quick-icon">
+                    ℹ️
+                </span>
+
+                About
+
+            </a>
+
+
+
+            <a href="trains.html">
+
+                <span class="quick-icon">
+                    🚆
+                </span>
+
+                Trains
+
+            </a>
+
+
+
+            <a href="registration.html">
+
+                <span class="quick-icon">
+                    📝
+                </span>
+
+                Registration
+
+            </a>
+
+
+
+            <a href="booking.html">
+
+                <span class="quick-icon">
+                    🎫
+                </span>
+
+                Booking
+
+            </a>
+
+
+
+            <a href="contact.html">
+
+                <span class="quick-icon">
+                    📞
+                </span>
+
+                Contact
+
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>
+                Yasaswini Railway
+            </h2>
+
+            <p>
+                Railway Reservation Information System
+            </p>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="trains.html">
+                    Trains
+                </a>
+
+                <a href="registration.html">
+                    Registration
+                </a>
+
+                <a href="booking.html">
+                    Booking
+                </a>
+
+                <a href="pnr-status.html">
+                    PNR Status
+                </a>
+
+                <a href="gallery.html">
+                    Gallery
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <p class="copyright">
+
+                © 2026 Yasaswini Railway Reservation
+                Information System
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
